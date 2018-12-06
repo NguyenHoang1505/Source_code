@@ -107,7 +107,7 @@ browser = webdriver.Chrome(chrome_options=chrome_options)
 
 
 print("Starting crawl..........")
-Quan={'quan-tay-ho','quan-thanh-xuan','huyen-ba-vi','huyen-chuong-my','huyen-dan-phuong','huyen-dong-anh','huyen-gia-lam','huyen-hoai-duc','huyen-me-linh','huyen-my-duc',''}
+Quan={'quan-tay-ho','quan-thanh-xuan','huyen-ba-vi','huyen-chuong-my','huyen-dan-phuong','huyen-dong-anh','huyen-gia-lam','huyen-hoai-duc','huyen-me-linh','huyen-my-duc'}
 for quan in Quan:
     file = open("Data_{0}.json".format(quan), "w",encoding='utf-8')
     max_page=10000
