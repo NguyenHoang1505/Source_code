@@ -129,7 +129,8 @@ for quan in Quan:
             except:
                 continue
             time.sleep(1)
-            print("Crawl item ",i," in page ",page,"....", end=' ')
+            print("Crawl item ",i," in page ",page," quan: ",quan,"....", end=' ')
+
             Crawl_item(i)
             print("Done in ",time.time() - start,"s.")
         time.sleep(1)
